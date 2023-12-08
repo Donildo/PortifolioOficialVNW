@@ -1,23 +1,27 @@
-import styles from "./Hero.module.css"
+import React from "react"
+import styles from "./Heroi.module.css"
 
-export const Hero = () => {
+import { getImageUrl } from "../../Utilitários"
+
+export const Heroi = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Olá meu nome é Donildo</h1>
                 <p className={styles.description}>
-                    Sou desenvolvedor front-end
+                    Sou desenvolvedor front-end junior. Experiencia com React, Next e Angular
                 </p>
-                <a href="" className={styles.contactBtn}>
+                <a href="devfrontdonildo@gmail.com" className={styles.contactBtn}>
                     Contatos
                 </a>
             </div>
                 <img
-                  src=""
+                  src={getImageUrl("assets/heroImage.png")}
                   alt="Avatar do Heroi"
+                  className={styles.heroImg}
                 />
-                <div></div>
-                <div></div>
+            <div className={styles.topBlur}/>
+            <div className={styles.bottomBlur}/>    
         </section>
     )
 }
