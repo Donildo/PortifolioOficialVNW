@@ -4,6 +4,7 @@ import { Heroi } from "./Components/Heroi/Heroi";
 import { Sobre } from "./Components/Sobre/Sobre";
 import { Experiencia } from "./Components/Experiencia/Experiencia";
 import { Projetos } from "./Components/Projetos/Projetos";
+import { Contatos } from "./Components/Contatos/Contatos";
 
 function App() {
     return(
