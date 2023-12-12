@@ -9,7 +9,7 @@ export const Heroi = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>Olá meu nome é Donildo</h1>
                 <p className={styles.description}>
-                    Sou desenvolvedor front-end junior. Experiencia com React, Next e Angular
+                    Sou Desenvolvedor front-end junior. Experiencia com React, Next e Angular
                 </p>
                 <a href="devfrontdonildo@gmail.com" className={styles.contactBtn}>
                     Contatos
